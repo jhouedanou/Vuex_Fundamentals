@@ -97,7 +97,7 @@ export default {
       }
 			EventService.postEvent(event)
 		  .then(() => {
-		    this.$store.commit('ADD_EVENT', event)
+        
 	    })
 	    .catch(error => {
 		    console.log(error)
