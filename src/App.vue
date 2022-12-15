@@ -18,7 +18,14 @@
   text-align: center;
   color: #2c3e50;
 }
-
+.dimthatshit{
+  pointer-events:none;
+  filter: alpha(opacity=50); /* internet explorer */
+    -khtml-opacity: 0.5;      /* khtml, old safari */
+    -moz-opacity: 0.5;       /* mozilla, netscape */
+    opacity: 0.5;           /* fx, safari, opera */
+    
+}
 button {
   align-items: center;
   height: 50px;
